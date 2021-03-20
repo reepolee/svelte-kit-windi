@@ -5,7 +5,7 @@ This is highly experimental template as neither Svelte Kit nor WindiCSS are prod
 # Installation
 
 ```
-npx degit https://github.com/reepolee/svelte-kit-windi.git#main
+npx degit reepolee/svelte-kit-windi.git#main svelte-kit-windi
 cd svelte-kit-windi
 npm i
 npm run dev -- --open
