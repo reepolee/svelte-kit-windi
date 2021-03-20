@@ -1,0 +1,22 @@
+<script>
+  import Counter from "$lib/Counter.svelte";
+</script>
+
+<main class="text-center">
+  <h1>Hello world</h1>
+
+  <Counter />
+  <p class="py-8">Visit the <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
+</main>
+
+<style>
+  h1 {
+    @apply text-4xl text-svelte-500 py-8;
+  }
+
+  @screen xl {
+    h1 {
+      @apply text-8xl;
+    }
+  }
+</style>
