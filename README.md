@@ -13,7 +13,7 @@ npm run dev -- --open
 
 # WindiCSS
 
-Windi classes and `@apply` statements are currently split between CSS and Svelte files and components, to test the behaviour of compiler.
+Windi classes and `@apply` statements are currently split between Svelte files and components, to test the behaviour of compiler.
 
 # Further reading
 
